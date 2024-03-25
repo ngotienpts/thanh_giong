@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <!-- <link
+            rel="icon"
+            href="./images/favicon/favicon-32x32.png"
+            sizes="32x32"
+        /> -->
+        <!-- end favicon -->
+        <title>Thánh gióng</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./lib/fancybox/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <script src="./lib/jquery/jquery.js"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header id="header" class="header relative">
+            <!-- top -->
+            <div class="header-top bg-orange-fa py-10">
+                <div class="header-top__container w-wrapper w-1296 d-2xl-flex items-center justify-between text-white fs-14">
+                    <!-- left -->
+                    <div class="header-top__left d-2xl-flex items-center">
+                        <div class="d-2xl-flex items-center">
+                            <img src="./images/hot.png" alt="">
+                            <span class="uppercase ml-10">Tin hot</span>
+                        </div>
+                        <span class="mx-10">|</span>
+                        <a href="#" class="fix-text">Khởi động dự án dạy bơi an toàn cho hơn 1.800 học sinh</a>
+                    </div>
+                    <!-- end left -->
+                    <!-- right -->
+                    <div class="header-top__right d-2xl-flex items-center">
+                        <div class="d-2xl-flex items-center">
+                            <img src="./images/svg/Date_range_light.svg" alt="">
+                            <span class="ml-10">Thứ năm, 15/06/2024</span>
+                        </div>
+                        <span class="mx-10">|</span>
+                        <span>08:30 GMT+7</span>
+                    </div>
+                    <!-- end right -->
+                </div>
+            </div>
+            <!-- end top -->
+
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="navbar-container w-wrapper w-1296 d-2xl-flex items-center justify-between py-20">
+                    <!-- left -->
+                    <div class="navbar-left flex-0">
+                        <a href="#">
+                            <img src="./images/svg/logo_thanhgiong.svg" alt="">
+                        </a>
+                    </div>
+                    <!-- end left -->
+                    <!-- center -->
+                    <div class="navbar-center flex-1 ml-40 mr-30">
+                        <ul class="dropdown-list fs-14 text-gray-555 d-2xl-flex items-center justify-between">
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">Thế giới trẻ</a>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Đoàn hội</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Tô yêu tổ quốc tôi</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Tri thức trẻ</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Góc nhìn trẻ</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Khởi nghiệp</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Kỹ năng</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Gương thanh niên</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="dropdown-item">
+                                <div class="d-2xl-flex items-center  dropdown-item__text">
+                                    <a href="#" class="dropdown-link">Sáng tạo trẻ</a>
+                                    <div class="dropdown-icon ml-4">
+                                        <img src="./images/svg/down_arrow.svg" alt="">
+                                    </div>
+                                </div>
+                                <ul class="dropdown-subList">
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                    <li class="dropdown-subItem">
+                                        <a href="#" class="dropdown-link">Title 1</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- end item -->
+                        </ul>
+                    </div>
+                    <!-- end center -->
+                    <!-- right -->
+                    <div class="navbar-right d-2xl-flex items-center gap-16 flex-0">
+                        <!-- search -->
+                        <div class="navbar-search relative js__searchPc">
+                            <div class="pointer">
+                                <img src="./images/svg/search.svg" class="js__showSearchPc" alt="">
+                                <img src="./images/svg/close.svg" class="js__closeSearchPc d-2xl-none" alt="">
+                            </div>
+                            <div class="search-pc fs-14 absolute js__searchContainer">
+                                <form action="" class="relative">
+                                    <input type="text" class="search-input fs-14 w-full h-full" placeholder="Tìm kiếm">
+                                    <button class="search-btn absolute">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                            <g clip-path="url(#clip0_1_484)">
+                                                <path d="M11 11.0002L8.19995 8.2002" stroke="#333333" stroke-miterlimit="10" stroke-linecap="square"></path>
+                                                <path d="M5 9.5C7.48528 9.5 9.5 7.48528 9.5 5C9.5 2.51472 7.48528 0.5 5 0.5C2.51472 0.5 0.5 2.51472 0.5 5C0.5 7.48528 2.51472 9.5 5 9.5Z" stroke="#333333" stroke-miterlimit="10" stroke-linecap="square"></path>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_1_484">
+                                                    <rect width="12" height="12" fill="white"></rect>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                        <!-- end search -->
+                        <!-- user -->
+                        <div class="navbar-user">
+                            <img src="./images/svg/user.svg" alt="">
+                        </div>
+                        <!-- end user -->
+                    </div>
+                    <!-- end right -->
+                </div>
+            </div>
+            <!-- end navbar -->
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+            <!-- pc -->
+            <div class="d-2xl-block d-sm-none">
+               <!-- primary -->
+               <section class="section-primary w-1296 w-wrapper">
+                    <!-- top -->
+                    <div class="section-primary-top">
+                        <!-- article -->
+                        <div class="article relative border-8">
+                            <!-- img -->
+                            <div class="article__img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/3.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- end img -->
+                            <!-- content -->
+                            <div class="article__content absolute px-30 py-20">
+                                <a href="#" class="btn mb-8 fw-700">Đoàn đội</a>
+                                <h3 class="article__title fs-22 fw-800 text-white">
+                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                </h3>
+                                <div class="article__public d-2xl-flex items-center fs-12 gap-24 mt-8">
+                                    <div class="d-2xl-flex items-center article__author">
+                                        <span class="text-gray-b6">Đăng bởi:</span>
+                                        <span class="text-white ml-4">Admin</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__time">
+                                        <img src="./images/svg/Calendar_add_light.svg" alt="">
+                                        <span class="text-white ml-4">25/06/2024</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__cmt">
+                                        <img src="./images/svg/Chat-bubble-square.svg" alt="">
+                                        <span class="text-white ml-4">1 Comment</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article relative border-8">
+                            <!-- img -->
+                            <div class="article__img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/3.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- end img -->
+                            <!-- content -->
+                            <div class="article__content absolute px-30 py-20">
+                                <a href="#" class="btn btn-primary mb-8 fw-700">Đoàn đội</a>
+                                <h3 class="article__title fs-22 fw-800 text-white">
+                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                </h3>
+                                <div class="article__public d-2xl-flex items-center fs-12 gap-24 mt-8">
+                                    <div class="d-2xl-flex items-center article__author">
+                                        <span class="text-gray-b6">Đăng bởi:</span>
+                                        <span class="text-white ml-4">Admin</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__time">
+                                        <img src="./images/svg/Calendar_add_light.svg" alt="">
+                                        <span class="text-white ml-4">25/06/2024</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__cmt">
+                                        <img src="./images/svg/Chat-bubble-square.svg" alt="">
+                                        <span class="text-white ml-4">1 Comment</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article relative border-8">
+                            <!-- img -->
+                            <div class="article__img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/3.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- end img -->
+                            <!-- content -->
+                            <div class="article__content absolute px-30 py-20">
+                                <a href="#" class="btn btn-pink mb-8 fw-700">Đoàn đội</a>
+                                <h3 class="article__title fs-22 fw-800 text-white">
+                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                </h3>
+                                <div class="article__public d-2xl-flex items-center fs-12 gap-24 mt-8">
+                                    <div class="d-2xl-flex items-center article__author">
+                                        <span class="text-gray-b6">Đăng bởi:</span>
+                                        <span class="text-white ml-4">Admin</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__time">
+                                        <img src="./images/svg/Calendar_add_light.svg" alt="">
+                                        <span class="text-white ml-4">25/06/2024</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__cmt">
+                                        <img src="./images/svg/Chat-bubble-square.svg" alt="">
+                                        <span class="text-white ml-4">1 Comment</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article relative border-8">
+                            <!-- img -->
+                            <div class="article__img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/3.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- end img -->
+                            <!-- content -->
+                            <div class="article__content absolute px-30 py-20">
+                                <a href="#" class="btn btn-success mb-8 fw-700">Đoàn đội</a>
+                                <h3 class="article__title fs-22 fw-800 text-white">
+                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                </h3>
+                                <div class="article__public d-2xl-flex items-center fs-12 gap-24 mt-8">
+                                    <div class="d-2xl-flex items-center article__author">
+                                        <span class="text-gray-b6">Đăng bởi:</span>
+                                        <span class="text-white ml-4">Admin</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__time">
+                                        <img src="./images/svg/Calendar_add_light.svg" alt="">
+                                        <span class="text-white ml-4">25/06/2024</span>
+                                    </div>
+                                    <div class="d-2xl-flex items-center article__cmt">
+                                        <img src="./images/svg/Chat-bubble-square.svg" alt="">
+                                        <span class="text-white ml-4">1 Comment</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end article -->
+                    </div>
+                    <!-- end top -->
+
+                    <!-- bot -->
+                    <div class="section-primary-bot">
+                        <div class="section-primary-bot__container js__swiperThreeContainer">
+                            <div class="section-primary-bot__inner">
+                                <div class="swiper js__swiperThree">
+                                    <div class="swiper-wrapper">
+                                        <!-- slide -->
+                                        <div class="swiper-slide">
+                                            <div class="article d-2xl-flex">
+                                                <!-- img -->
+                                                <div class="article__img flex-0 w-35 border-8">
+                                                    <a href="#" class="image-wrapper-full">
+                                                        <img src="./images/3.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <!-- end img -->
+                                                <!-- content -->
+                                                <div class="article__content pl-20 flex-1">
+                                                    <a href="#" class="link-decoration text-pink-ff3 mb-10 fw-600">Đoàn đội</a>
+                                                    <h3 class="article__title fs-14 fw-700 text-blue-0d">
+                                                        <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                    </h3>
+                                                    <div class="article__public d-2xl-flex items-center justify-between fs-12 gap-16 mt-8">
+                                                        <div class="d-2xl-flex items-center article__author">
+                                                            <span class="text-gray-77">Đăng bởi:</span>
+                                                            <span class="text-gray-77 ml-4">Admin</span>
+                                                        </div>
+                                                        <div class="d-2xl-flex items-center article__time">
+                                                            <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                            <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end content -->
+                                            </div>
+                                        </div>
+                                        <!-- end slide -->
+                                        <!-- slide -->
+                                        <div class="swiper-slide">
+                                            <div class="article d-2xl-flex">
+                                                <!-- img -->
+                                                <div class="article__img flex-0 w-35 border-8">
+                                                    <a href="#" class="image-wrapper-full">
+                                                        <img src="./images/3.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <!-- end img -->
+                                                <!-- content -->
+                                                <div class="article__content pl-20 flex-1">
+                                                    <a href="#" class="link-decoration text-blue-008 mb-10 fw-600">Đoàn đội</a>
+                                                    <h3 class="article__title fs-14 fw-700 text-blue-0d">
+                                                        <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                    </h3>
+                                                    <div class="article__public d-2xl-flex items-center justify-between fs-12 gap-16 mt-8">
+                                                        <div class="d-2xl-flex items-center article__author">
+                                                            <span class="text-gray-77">Đăng bởi:</span>
+                                                            <span class="text-gray-77 ml-4">Admin</span>
+                                                        </div>
+                                                        <div class="d-2xl-flex items-center article__time">
+                                                            <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                            <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end content -->
+                                            </div>
+                                        </div>
+                                        <!-- end slide -->
+                                        <!-- slide -->
+                                        <div class="swiper-slide">
+                                            <div class="article d-2xl-flex">
+                                                <!-- img -->
+                                                <div class="article__img flex-0 w-35 border-8">
+                                                    <a href="#" class="image-wrapper-full">
+                                                        <img src="./images/3.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <!-- end img -->
+                                                <!-- content -->
+                                                <div class="article__content pl-20 flex-1">
+                                                    <a href="#" class="link-decoration text-yellow-ffa mb-10 fw-600">Đoàn đội</a>
+                                                    <h3 class="article__title fs-14 fw-700 text-blue-0d">
+                                                        <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                    </h3>
+                                                    <div class="article__public d-2xl-flex items-center justify-between fs-12 gap-16 mt-8">
+                                                        <div class="d-2xl-flex items-center article__author">
+                                                            <span class="text-gray-77">Đăng bởi:</span>
+                                                            <span class="text-gray-77 ml-4">Admin</span>
+                                                        </div>
+                                                        <div class="d-2xl-flex items-center article__time">
+                                                            <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                            <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end content -->
+                                            </div>
+                                        </div>
+                                        <!-- end slide -->
+                                        <!-- slide -->
+                                        <div class="swiper-slide">
+                                            <div class="article d-2xl-flex">
+                                                <!-- img -->
+                                                <div class="article__img flex-0 w-35 border-8">
+                                                    <a href="#" class="image-wrapper-full">
+                                                        <img src="./images/3.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <!-- end img -->
+                                                <!-- content -->
+                                                <div class="article__content pl-20 flex-1">
+                                                    <a href="#" class="link-decoration text-green-32 mb-10 fw-600">Đoàn đội</a>
+                                                    <h3 class="article__title fs-14 fw-700 text-blue-0d">
+                                                        <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                    </h3>
+                                                    <div class="article__public d-2xl-flex items-center justify-between fs-12 gap-16 mt-8">
+                                                        <div class="d-2xl-flex items-center article__author">
+                                                            <span class="text-gray-77">Đăng bởi:</span>
+                                                            <span class="text-gray-77 ml-4">Admin</span>
+                                                        </div>
+                                                        <div class="d-2xl-flex items-center article__time">
+                                                            <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                            <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end content -->
+                                            </div>
+                                        </div>
+                                        <!-- end slide -->
+                                        <!-- slide -->
+                                        <div class="swiper-slide">
+                                            <div class="article d-2xl-flex">
+                                                <!-- img -->
+                                                <div class="article__img flex-0 w-35 border-8">
+                                                    <a href="#" class="image-wrapper-full">
+                                                        <img src="./images/3.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <!-- end img -->
+                                                <!-- content -->
+                                                <div class="article__content pl-20 flex-1">
+                                                    <a href="#" class="link-decoration text-green-558 mb-10 fw-600">Đoàn đội</a>
+                                                    <h3 class="article__title fs-14 fw-700 text-blue-0d">
+                                                        <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                    </h3>
+                                                    <div class="article__public d-2xl-flex items-center justify-between fs-12 gap-16 mt-8">
+                                                        <div class="d-2xl-flex items-center article__author">
+                                                            <span class="text-gray-77">Đăng bởi:</span>
+                                                            <span class="text-gray-77 ml-4">Admin</span>
+                                                        </div>
+                                                        <div class="d-2xl-flex items-center article__time">
+                                                            <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                            <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- end content -->
+                                            </div>
+                                        </div>
+                                        <!-- end slide -->
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end bot -->
+               </section>
+               <!-- end primary -->
+
+               <!-- secondary -->
+               <section class="section-secondary bg-gray-fb">
+                    <div class="section-secondary-container w-1296 w-wrapper">
+                        <!-- heading -->
+                        <div class="section-heading d-2xl-flex items-center justify-between">
+                            <div class="d-2xl-flex items-center">
+                                <h1 class="heading-primary fs-28 fw-700 text-blue-0d">
+                                    Sự kiện nổi bật
+                                </h1>
+                                <div class="heading-line d-2xl-flex flex-col gap-4 ml-20">
+                                    <div class="one"></div>
+                                    <div class="two"></div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-large">Xem thêm</a>
+                        </div>
+                        <!-- end heading -->
+
+                        <!-- content -->
+                        <div class="section-secondary-content js__swiperFourContainer">
+                            <div class="swiper js__swiperFour">
+                                <div class="swiper-wrapper">
+                                    <!-- slide -->
+                                    <div class="swiper-slide">
+                                        <div class="article">
+                                            <!-- img -->
+                                            <div class="article__img border-8">
+                                                <a href="#" class="image-wrapper">
+                                                    <img src="./images/3.jpg" alt="">
+                                                    <!-- category -->
+                                                    <div class="article__category absolute p-20">
+                                                        <span class="btn fw-700">Đoàn đội</span>
+                                                    </div>
+                                                    <!-- category -->
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article__content px-20 py-16 bg-white">
+                                                <div class="d-2xl-flex items-center article__time mb-8 fs-12">
+                                                    <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                    <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                </div>
+                                                <h3 class="article__title fs-14 fw-800 text-blue-0d">
+                                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                </h3>
+                                                <div class="article__public d-2xl-flex items-center fs-12 gap-16 mt-8">
+                                                    <div class="d-2xl-flex items-center article__author">
+                                                        <span class="text-gray-77">Đăng bởi:</span>
+                                                        <span class="text-gray-77 ml-4">Admin</span>
+                                                    </div>
+                                                    <div class="d-2xl-flex items-center article__cmt">
+                                                        <img src="./images/svg/Chat-bubble-square_gray.svg" alt="">
+                                                        <span class="text-gray-77 ml-4">1 Comment</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="d-2xl-flex items-center gap-4 text-blue-0d mt-8 fs-14">
+                                                    <span class="mr-10">Đọc thêm</span>
+                                                    <img src="./images/svg/read-lot-arrow.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                    </div>
+                                    <!-- end slide -->
+                                    <!-- slide -->
+                                    <div class="swiper-slide">
+                                        <div class="article">
+                                            <!-- img -->
+                                            <div class="article__img border-8">
+                                                <a href="#" class="image-wrapper">
+                                                    <img src="./images/3.jpg" alt="">
+                                                    <!-- category -->
+                                                    <div class="article__category absolute p-20">
+                                                        <span class="btn btn-success fw-700">Đoàn đội</span>
+                                                    </div>
+                                                    <!-- category -->
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article__content px-20 py-16 bg-white">
+                                                <div class="d-2xl-flex items-center article__time mb-8 fs-12">
+                                                    <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                    <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                </div>
+                                                <h3 class="article__title fs-14 fw-800 text-blue-0d">
+                                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                </h3>
+                                                <div class="article__public d-2xl-flex items-center fs-12 gap-16 mt-8">
+                                                    <div class="d-2xl-flex items-center article__author">
+                                                        <span class="text-gray-77">Đăng bởi:</span>
+                                                        <span class="text-gray-77 ml-4">Admin</span>
+                                                    </div>
+                                                    <div class="d-2xl-flex items-center article__cmt">
+                                                        <img src="./images/svg/Chat-bubble-square_gray.svg" alt="">
+                                                        <span class="text-gray-77 ml-4">1 Comment</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="d-2xl-flex items-center gap-4 text-blue-0d mt-8 fs-14">
+                                                    <span class="mr-10">Đọc thêm</span>
+                                                    <img src="./images/svg/read-lot-arrow.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                    </div>
+                                    <!-- end slide -->
+                                    <!-- slide -->
+                                    <div class="swiper-slide">
+                                        <div class="article">
+                                            <!-- img -->
+                                            <div class="article__img border-8">
+                                                <a href="#" class="image-wrapper">
+                                                    <img src="./images/3.jpg" alt="">
+                                                    <!-- category -->
+                                                    <div class="article__category absolute p-20">
+                                                        <span class="btn btn-primary fw-700">Đoàn đội</span>
+                                                    </div>
+                                                    <!-- category -->
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article__content px-20 py-16 bg-white">
+                                                <div class="d-2xl-flex items-center article__time mb-8 fs-12">
+                                                    <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                    <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                </div>
+                                                <h3 class="article__title fs-14 fw-800 text-blue-0d">
+                                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                </h3>
+                                                <div class="article__public d-2xl-flex items-center fs-12 gap-16 mt-8">
+                                                    <div class="d-2xl-flex items-center article__author">
+                                                        <span class="text-gray-77">Đăng bởi:</span>
+                                                        <span class="text-gray-77 ml-4">Admin</span>
+                                                    </div>
+                                                    <div class="d-2xl-flex items-center article__cmt">
+                                                        <img src="./images/svg/Chat-bubble-square_gray.svg" alt="">
+                                                        <span class="text-gray-77 ml-4">1 Comment</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="d-2xl-flex items-center gap-4 text-blue-0d mt-8 fs-14">
+                                                    <span class="mr-10">Đọc thêm</span>
+                                                    <img src="./images/svg/read-lot-arrow.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                    </div>
+                                    <!-- end slide -->
+                                    <!-- slide -->
+                                    <div class="swiper-slide">
+                                        <div class="article">
+                                            <!-- img -->
+                                            <div class="article__img border-8">
+                                                <a href="#" class="image-wrapper">
+                                                    <img src="./images/3.jpg" alt="">
+                                                    <!-- category -->
+                                                    <div class="article__category absolute p-20">
+                                                        <span class="btn btn-success fw-700">Đoàn đội</span>
+                                                    </div>
+                                                    <!-- category -->
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article__content px-20 py-16 bg-white">
+                                                <div class="d-2xl-flex items-center article__time mb-8 fs-12">
+                                                    <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                    <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                </div>
+                                                <h3 class="article__title fs-14 fw-800 text-blue-0d">
+                                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                </h3>
+                                                <div class="article__public d-2xl-flex items-center fs-12 gap-16 mt-8">
+                                                    <div class="d-2xl-flex items-center article__author">
+                                                        <span class="text-gray-77">Đăng bởi:</span>
+                                                        <span class="text-gray-77 ml-4">Admin</span>
+                                                    </div>
+                                                    <div class="d-2xl-flex items-center article__cmt">
+                                                        <img src="./images/svg/Chat-bubble-square_gray.svg" alt="">
+                                                        <span class="text-gray-77 ml-4">1 Comment</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="d-2xl-flex items-center gap-4 text-blue-0d mt-8 fs-14">
+                                                    <span class="mr-10">Đọc thêm</span>
+                                                    <img src="./images/svg/read-lot-arrow.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                    </div>
+                                    <!-- end slide -->
+                                    <!-- slide -->
+                                    <div class="swiper-slide">
+                                        <div class="article">
+                                            <!-- img -->
+                                            <div class="article__img border-8">
+                                                <a href="#" class="image-wrapper">
+                                                    <img src="./images/3.jpg" alt="">
+                                                    <!-- category -->
+                                                    <div class="article__category absolute p-20">
+                                                        <span class="btn btn-pink fw-700">Đoàn đội</span>
+                                                    </div>
+                                                    <!-- category -->
+                                                </a>
+                                            </div>
+                                            <!-- end img -->
+                                            <!-- content -->
+                                            <div class="article__content px-20 py-16 bg-white">
+                                                <div class="d-2xl-flex items-center article__time mb-8 fs-12">
+                                                    <img src="./images/svg/Calendar_add_gray.svg" alt="">
+                                                    <span class="text-gray-77 ml-4">25/06/2024</span>
+                                                </div>
+                                                <h3 class="article__title fs-14 fw-800 text-blue-0d">
+                                                    <a href="#" class="fix-text2">Những hoạt động ý nghĩa của tuổi trẻ Hà Tĩnh trong chiến dịch tình nguyện hè</a>
+                                                </h3>
+                                                <div class="article__public d-2xl-flex items-center fs-12 gap-16 mt-8">
+                                                    <div class="d-2xl-flex items-center article__author">
+                                                        <span class="text-gray-77">Đăng bởi:</span>
+                                                        <span class="text-gray-77 ml-4">Admin</span>
+                                                    </div>
+                                                    <div class="d-2xl-flex items-center article__cmt">
+                                                        <img src="./images/svg/Chat-bubble-square_gray.svg" alt="">
+                                                        <span class="text-gray-77 ml-4">1 Comment</span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="d-2xl-flex items-center gap-4 text-blue-0d mt-8 fs-14">
+                                                    <span class="mr-10">Đọc thêm</span>
+                                                    <img src="./images/svg/read-lot-arrow.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- end content -->
+                                        </div>
+                                    </div>
+                                    <!-- end slide -->
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <!-- end content -->
+                    </div>
+               </section>
+               <!-- end secondary -->
+            </div>
+            <!-- end pc -->
+            
+            
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer">
+            
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./lib/fancybox/jquery.fancybox.min.js"></script>
+        <script src="./js/ResizeSensor.js"></script>
+        <script src="./js/theia-sticky-sidebar.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
