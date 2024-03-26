@@ -96,3 +96,106 @@
         transform: translateY(-50%);
     }
 }
+
+.navbar-mb {
+    border-bottom: 1px solid #fa5001;
+}
+.sub-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: auto;
+    color: #fff;
+    padding: 30px;
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    transition: all 0.2s;
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+    &__heading {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fff;
+    }
+    &__headingClose {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__list {
+        max-height: calc(100vh - 200px);
+        margin-top: 30px;
+        overflow: auto;
+    }
+    &__item {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 34px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 200;
+        a {
+            display: block;
+        }
+    }
+}
+.header-mb {
+    &__rightSearch {
+        height: 56px;
+        background-color: #e5e5e5;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__rightSearchForm {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__rightSearchInput {
+        flex: 1;
+        color: #fff;
+        font-size: 15px;
+    }
+    &__rightSearchBtn {
+        padding: 10px;
+        flex-shrink: 0;
+        width: 48px;
+        margin-right: -10px;
+    }
+}
+
+.navbar-search-icon {
+    .navbar-search-icon1 {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+    .navbar-search-icon2 {
+        display: none;
+        width: 20px;
+        height: 20px;
+    }
+    &.active {
+        .navbar-search-icon2 {
+            display: block;
+        }
+        .navbar-search-icon1 {
+            display: none;
+        }
+    }
+}

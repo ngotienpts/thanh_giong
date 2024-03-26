@@ -139,6 +139,9 @@ img {
 .w-full {
     width: 100%;
 }
+.w-27 {
+    width: 27%;
+}
 .w-30 {
     width: 30%;
 }
@@ -147,6 +150,9 @@ img {
 }
 .w-40 {
     width: 40%;
+}
+.w-45 {
+    width: 45%;
 }
 .w-50 {
     width: 50%;
@@ -204,6 +210,14 @@ img {
     &.btn-pink {
         background-color: #ff3385;
         border-color: #ff3385;
+    }
+    &.btn-warning {
+        background-color: #ffae25;
+        border-color: #ffae25;
+    }
+    &.btn-danger {
+        background-color: #e31e24;
+        border-color: #e31e24;
     }
     &.btn-success {
         background-color: #558811;
@@ -290,6 +304,11 @@ img {
 }
 
 /*=================================================================*/
+.image-wrapper-50 {
+    position: relative;
+    display: block;
+    padding-bottom: 50%;
+}
 .image-wrapper {
     position: relative;
     display: block;
@@ -310,7 +329,7 @@ img {
     display: block;
     padding-bottom: 150%;
 }
-
+.image-wrapper-50 img,
 .image-wrapper img,
 .image-wrapper-full img,
 .image-wrapper-120 img,
@@ -356,6 +375,12 @@ img {
 }
 .text-green-558 {
     color: #558811;
+}
+.text-orange-fa {
+    color: #fa5001;
+}
+.text-red-e3 {
+    color: #e31e24;
 }
 
 /*=================================================================*/
@@ -883,6 +908,7 @@ img {
     -moz-border-radius: 999px;
     -ms-border-radius: 999px;
     -o-border-radius: 999px;
+    overflow: hidden;
 }
 .border-full {
     border-radius: 50%;
@@ -890,6 +916,7 @@ img {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    overflow: hidden;
 }
 .border-4 {
     border-radius: 0.25rem;
